@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "types": [
+      "jest",
+      "jquery" // Add 'jest' for Jest or 'mocha' for Mocha
+    ],
+    
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
